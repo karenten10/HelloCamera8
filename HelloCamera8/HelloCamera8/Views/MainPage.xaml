@@ -5,7 +5,8 @@
              Title="{Binding Title}">
 
     <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-        <Label Text="Welcome to Xamarin Forms and Prism!" />
+        <Label Text="{Binding DisplayString}" BackgroundColor="Yellow" TextColor="black"/>
+        <Button Text="test" Command="{Binding ClickButton}" BackgroundColor="Blue"></Button>
     </StackLayout>
 
 </ContentPage>
